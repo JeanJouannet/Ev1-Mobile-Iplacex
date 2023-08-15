@@ -13,6 +13,19 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
+            android:name=".ContrataActivity"
+            android:theme="@style/Theme.AppCompat">
+            <!-- Other activity attributes -->
+        </activity>
+        <activity
+            android:name=".HonorarioActivity"
+            android:theme="@style/Theme.AppCompat">
+            <!-- Other activity attributes -->
+        </activity>
+        <activity
+            android:name=".View"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
